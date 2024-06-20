@@ -29,7 +29,7 @@ Nomad Clone is a web application built using the MERN stack (MongoDB, Express, R
 
 ### Pros and Cons
 
-![screenshot of Pros and Cons](https://github.com/Arie139/scheduler/blob/master/docs/pro_con.png?raw=true)
+![screenshot of Pros and Cons](https://github.com/Arie139/Nomad-Clone/blob/main/server/docs/pro_con.png?raw=true)
 
 ## Stack
 
