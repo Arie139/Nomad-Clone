@@ -1,0 +1,19 @@
+.continent-filter {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.continent-filter button {
+	justify-content: center;
+	margin: 7px;
+	padding: 10px;
+	height: 43px;
+	border: solid 1px #333;
+	border-color: #333;
+	border-radius: 50px;
+	color: rgba(255, 255, 255, 0.5);
+	background-color: #333;
+	font-size: large;
+	outline: none;
+}

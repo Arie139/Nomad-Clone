@@ -1,0 +1,185 @@
+.CityCard {
+	position: relative;
+	color: white;
+	border: 1px solid #ddd;
+	border-radius: 10px;
+	padding: 5px;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+	overflow: hidden;
+	perspective: 1000px;
+}
+.CityCard:hover .city-details {
+	display: flex;
+}
+
+.city-card-content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+}
+
+.city-country {
+	font-size: 1em;
+	margin: 0;
+}
+
+.city-name {
+	margin: 0;
+	font-size: 2.25em;
+}
+
+.city-rank {
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin: 10px;
+	text-decoration: underline;
+	font-size: x-large;
+}
+
+.city-details {
+	display: none;
+	flex-direction: column;
+	align-items: flex-start;
+	overflow: auto;
+	width: 100%;
+	margin-top: 20px;
+	transition: all 0.5s ease-in-out;
+}
+
+.close-button {
+	color: white;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	background: none;
+	border: none;
+	font-size: 1.5em;
+	cursor: pointer;
+}
+
+.detail-item {
+	top: 60%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+}
+
+.detail-item span {
+	width: 150px;
+}
+
+.meter-fill {
+	height: 110%;
+	border-radius: 25px;
+}
+
+.modal {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.95);
+	display: flex;
+	flex-direction: column;
+	z-index: 1000;
+	overflow: auto;
+	font-size: x-large;
+}
+
+.modal-cover {
+	position: relative;
+	width: 100%;
+	height: 20%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.modal-cover img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.close-button-modal {
+	color: white;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	background: none;
+	border: none;
+	font-size: 1.5em;
+	cursor: pointer;
+	z-index: 1001;
+}
+
+.modal-header {
+	position: absolute;
+	font-size: xxx-large;
+	color: white;
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+	z-index: 1;
+}
+
+.modal-tabs {
+	display: flex;
+	justify-content: space-around;
+	background-color: #333;
+	font-size: x-large;
+}
+
+.modal-tabs button {
+	padding: 10px 20px;
+	color: white;
+	border: none;
+	background-color: #333;
+	cursor: pointer;
+	border-color: #333;
+	font-size: x-large;
+}
+
+.modal-tabs button.active {
+	color: red;
+	border-bottom: 2px solid red;
+	background-color: #333;
+}
+
+.modal-content {
+	background-color: #333;
+	border-color: #333;
+	color: white;
+	font-size: x-large;
+}
+
+.overview {
+	display: table-cell;
+}
+
+.overview-item {
+	padding: 10px;
+	font-size: x-large;
+}
+
+.score-item {
+	display: inline-flex;
+	align-items: center;
+	margin: 10px;
+	width: 600px;
+}
+
+.score-item span {
+	width: 70%;
+	text-align: left;
+}
+
+.pros-cons-container {
+	color: white;
+	background-color: #333;
+	display: flex;
+	justify-content: space-evenly;
+}

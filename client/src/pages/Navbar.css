@@ -1,0 +1,96 @@
+.navbar {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background-color: #333;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	z-index: 1000;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	height: 53px;
+}
+
+.navbar li {
+	margin-right: 10px;
+}
+
+.navbar li a,
+.dropbtn {
+	display: flex;
+	justify-content: center;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+.navbar li a:hover,
+.dropdown:hover .dropbtn {
+	background-color: red;
+	color: black;
+}
+
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	right: 0;
+	background-color: #333;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	z-index: 1;
+	display: flex;
+	flex-direction: column;
+}
+
+.dropdown-content a {
+	color: white;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+	flex: 1;
+}
+
+.dropdown-content a:hover,
+.dropdown-content a:active {
+	background-color: red;
+	color: black;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+.dropbtn {
+	background-color: #333;
+	color: white;
+	padding: 16px;
+	font-size: 16px;
+	border: none;
+	cursor: pointer;
+}
+
+.dropbtn:hover,
+.dropbtn:focus {
+	background-color: red;
+	color: black;
+}
+
+.navBut {
+	width: 100%;
+	background-color: #333;
+	color: white;
+}
+
+.navBut:hover {
+	background-color: red;
+	color: black;
+}
