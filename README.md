@@ -1,70 +1,53 @@
-# Getting Started with Create React App
+# Nomad Clone
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Nomad Clone is a web application built using the MERN stack (MongoDB, Express, React, Node.js). It allows users to register, log in, and view a list of cities sorted by rank. When a user hovers over or clicks on a city, more information about various categories is displayed.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- `User Registration: Secure registration with hashed passwords.`
+- `User Login: Secure authentication for logging in.`
+- `Home Page: Displays a list of cities sorted by rank.`
+- `City Details: Detailed information about cities on hover or click.`
+- `Responsive Design: Optimized for various devices and screen sizes.`
+- `Interactive UI: Smooth transitions and user-friendly interactions.`
 
-### `npm start`
+### Nomad Signup
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![screenshot of Signup](https://github.com/Arie139/Nomad-Clone/blob/main/server/docs/signup.png?raw=true)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Home Page
 
-### `npm test`
+![screenshot of Home Page](https://github.com/Arie139/Nomad-Clone/blob/main/server/docs/home_page.png?raw=true)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Overview
 
-### `npm run build`
+![screenshot of Overview](https://github.com/Arie139/Nomad-Clone/blob/main/server/docs/overview.png?raw=true)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Scores
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![screenshot of Scores](https://github.com/Arie139/Nomad-Clone/blob/main/server/docs/scores.png?raw=true)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Pros and Cons
 
-### `npm run eject`
+![screenshot of Pros and Cons](https://github.com/Arie139/scheduler/blob/master/docs/pro_con.png?raw=true)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Stack
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- `MongoDB: Database to store user and city data`
+- `Express: Backend framework for building the REST API`
+- `React: Frontend library for building user interfaces`
+- `Node.js: JavaScript runtime for server-side development`
+- `Redux: State management for handling complex application states.`
+- `bcrypt: For hashing passwords to ensure user data security.`
+- `JWT: JSON Web Tokens for secure user authentication.`
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Setup
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Node -v `v20.14.0`
+- Install dependencies with `npm install`.
+- Create a `.env` file in the `server directory with the following content:
+  1. `MONGO_URL`
+  2. `TOKEN_KEY`
+  3. `PORT`
+- npm start to run the app at http://localhost:3000/
+- Fetch data from Mongodb at http://localhost:3001/
