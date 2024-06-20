@@ -1,6 +1,6 @@
 # Nomad Clone
 
-Nomad Clone is a web application built using the MERN stack (MongoDB, Express, React, Node.js). It allows users to register, log in, and view a list of cities sorted by rank. When a user hovers over or clicks on a city, more information about various categories is displayed.
+Nomad Clone is a web application built using the MERN stack (MongoDB, Express, React, Node.js). It allows users to register, log in, and view a list of cities sorted by popularity. When a user hovers over or clicks on a city, more information about various categories is displayed.
 
 ## Features
 
