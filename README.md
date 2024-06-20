@@ -4,12 +4,12 @@ Nomad Clone is a web application built using the MERN stack (MongoDB, Express, R
 
 ## Features
 
-- `User Registration: Secure registration with hashed passwords.`
-- `User Login: Secure authentication for logging in.`
-- `Home Page: Displays a list of cities sorted by rank.`
-- `City Details: Detailed information about cities on hover or click.`
-- `Responsive Design: Optimized for various devices and screen sizes.`
-- `Interactive UI: Smooth transitions and user-friendly interactions.`
+- `User Registration:` Secure registration with hashed passwords.
+- `User Login:` Secure authentication for logging in.
+- `Home Page:` Displays a list of cities sorted by rank.
+- `City Details:` Detailed information about cities on hover or click.
+- `Responsive Design:` Optimized for various devices and screen sizes.
+- `Interactive UI:` Smooth transitions and user-friendly interactions.
 
 ### Nomad Signup
 
@@ -33,13 +33,13 @@ Nomad Clone is a web application built using the MERN stack (MongoDB, Express, R
 
 ## Stack
 
-- `MongoDB: Database to store user and city data`
-- `Express: Backend framework for building the REST API`
-- `React: Frontend library for building user interfaces`
-- `Node.js: JavaScript runtime for server-side development`
-- `Redux: State management for handling complex application states.`
-- `bcrypt: For hashing passwords to ensure user data security.`
-- `JWT: JSON Web Tokens for secure user authentication.`
+- `MongoDB:` Database to store user and city data.
+- `Express:` Backend framework for building the REST API.
+- `React:` Frontend library for building user interfaces.
+- `Node.js:` JavaScript runtime for server-side development.
+- `Redux:` State management for handling complex application states.
+- `bcrypt:` For hashing passwords to ensure user data security.
+- `JWT:` JSON Web Tokens for secure user authentication.
 
 ## Setup
 
